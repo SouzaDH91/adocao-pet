@@ -1,0 +1,60 @@
+* {
+    margin: 0px;
+    padding: 0px;
+}
+
+body {
+    color: #363b4d;
+    overflow-x: hidden;
+    background: #f7f7f7;
+    font: 400 16px/26px 'Quicksand', Arial, Helvetica, sans-serif;
+}
+
+ol li {
+    list-style: decimal;
+    width: 100%;
+}
+a {
+    text-decoration: none !important;
+}
+
+/**** Login *************/
+.tg-breadcrumbarea {
+    width: 100%;
+    float: left;
+    padding: 15px 0;
+}
+.tg-breadcrumb {
+    margin: 0;
+    padding: 0;
+    color: #666;
+    width: 100%;
+    float: left;
+    list-style: none;
+    text-align: right;
+    text-transform: capitalize;
+    font: 500 14px/20px 'Quicksand', Arial, Helvetica, sans-serif;
+}
+.tg-breadcrumb li:last-child {
+    padding-right: 0;
+}
+.tg-breadcrumb li {
+    width: auto;
+    float: left;
+    padding: 0 15px;
+    position: relative;
+    line-height: inherit;
+    list-style-type: none;
+}
+.tg-breadcrumb li:after {
+    top: 0;
+    left: -3px;
+    content: '\f105';
+    position: absolute;
+    font-family: 'Font Awesome 5 Free';
+    font-weight: 900;
+}
+.tg-breadcrumb li a {
+    color: #666;
+    display: block;
+}
